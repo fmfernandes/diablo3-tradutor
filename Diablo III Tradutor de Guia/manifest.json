@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Diablo III Tradutor de Guia",
+  "description": "Essa extensão traduz os nomes das armas, runas e skills de guias encontrados no site Icy Veins",
+  "permissions": [
+    "http://www.icy-veins.com/",
+    "http://us.battle.net/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "http://www.icy-veins.com/*" ],
+      "js": [ "jquery-3.1.1.min.js", "translate.js" ]
+    }
+  ]
+}
