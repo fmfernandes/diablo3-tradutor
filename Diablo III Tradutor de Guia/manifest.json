@@ -9,7 +9,7 @@
   ],
   "content_scripts": [
     {
-      "matches": [ "https://www.icy-veins.com/*" ],
+      "matches": [ "https://www.icy-veins.com/d3/*" ],
       "js": [ "jquery-3.1.1.min.js", "translate.js" ]
     }
   ]
